@@ -37,7 +37,7 @@ begin
       }
 
       # write to the file
-      file.write(stripped_data.to_json + "\n")
+      file.write(json_blob - stripped_data.to_json + "\n")
     end
   end
 
